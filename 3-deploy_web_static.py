@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Tar, transfer, and deploy static html to webservers"""
+"""Transfer, and deploy static html to webservers"""
 
 from fabric import api, decorators
 from fabric.contrib import files
@@ -13,7 +13,7 @@ api.env.key_filename = '~/.ssh/holberton'
 
 
 def deploy():
-    """Wrapper function to pack html files into tarball and transfer
+    """Wrapper function to pack the html files into tarball and transfer
     to web servers."""
     return do_deploy(do_pack())
 
