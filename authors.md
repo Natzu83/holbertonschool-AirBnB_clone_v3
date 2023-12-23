@@ -1,4 +1,4 @@
 Authors:
 
 Omar Velez natzuac@yahoo.com
-Jose Nieves 
+Jose Nieves 6845@holbertonstudents.com
