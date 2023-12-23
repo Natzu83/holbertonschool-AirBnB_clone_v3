@@ -1,7 +1,7 @@
 
 ![logo](https://github.com/Natzu83/holbertonschool-AirBnB_clone_v3/assets/127802407/421836c8-f1f3-49ce-97cd-4ef9d46131bc)
 
-# AirBnB Clone Phase 3
+# AirBnB Clone V3
 
 ## Learning Objectives
 
@@ -66,9 +66,7 @@ Project attempts to clone the the AirBnB application and website, including the 
 ## Enviroment
 * OS: Ubuntu 14.04 LTS
 * language: Python 3.4.3
-* web server: nginx/1.4.6
 * application server: Flask 0.12.2, Jinja2 2.9.6
-* web server gateway: gunicorn (version 19.7.1)
 * database: mysql Ver 14.14 Distrib 5.7.18
 
 
