@@ -1,4 +1,6 @@
-Learning Objectives
+# AirBnB Clone Phase 3
+
+## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 General
@@ -15,7 +17,7 @@ General
     Which is the HTTP method to delete resource
     How to request REST API
 
-Requirements
+## Requirements
 Python Scripts
 
     Allowed editors: vi, vim, emacs
@@ -31,7 +33,7 @@ Python Scripts
     All your functions (inside and outside a class) should have documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
     A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
-Python Unit Tests
+## Python Unit Tests
 
     Allowed editors: vi, vim, emacs
     All your files should end with a new line
@@ -44,7 +46,30 @@ Python Unit Tests
     You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base_model.py
     We strongly encourage you to work together on test cases, so that you don’t miss any edge cases
 
-Authors:
+## Description
+
+Project attempts to clone the the AirBnB application and website, including the database, storage, RESTful API, Web Framework, and Front End. Currently the application is designed to run with 2 storage engine models:
+
+ *  File Storage Engine:
+        /models/engine/file_storage.py
+
+* Database Storage Engine:
+ /models/engine/db_storage.py
+
+   To Setup the DataBase for testing and development, there are 2 setup scripts that setup a database with certain privileges: setup_mysql_test.sql & setup_mysql_test.sql (for more on setup, see below).
+
+   The Database uses Environmental Variables for tests.
+
+## Enviroment
+* OS: Ubuntu 14.04 LTS
+* language: Python 3.4.3
+* web server: nginx/1.4.6
+* application server: Flask 0.12.2, Jinja2 2.9.6
+* web server gateway: gunicorn (version 19.7.1)
+* database: mysql Ver 14.14 Distrib 5.7.18
+
+
+## Authors:
 
 Omar Velez natzuac@yahoo.com
 Jose Nieves 6845@holbertonstudents.com
