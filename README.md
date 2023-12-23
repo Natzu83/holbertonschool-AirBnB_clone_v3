@@ -1,7 +1,7 @@
 
 ![logo](https://github.com/Natzu83/holbertonschool-AirBnB_clone_v3/assets/127802407/421836c8-f1f3-49ce-97cd-4ef9d46131bc)
 
-# AirBnB Clone V3
+# Holberton AirBnB Clone V3
 
 ## Learning Objectives
 
